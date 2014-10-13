@@ -8891,10 +8891,23 @@ $ios-transition-box-shadow-end: -200px 0px 200px rgba(0,0,0,0.15), -5px 0px 5px 
 .box {
   height: 100%; }
   .box .blue {
-    background-color: #9999ff; }
+    background-color: #ccccff; }
   .box .yellow {
     background-color: yellow; }
   .box .pink {
     background-color: pink; }
+
+.move-box {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100px;
+  width: 100px;
+  border: 2px solid;
+  border-color: #444;
+  z-index: 10; }
 
 /*# sourceMappingURL=ionic.app.css.map */

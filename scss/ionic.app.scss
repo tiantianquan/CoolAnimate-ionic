@@ -21,13 +21,20 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "../www/lib/ionic/scss/ionic";
 
+$long:100px;
 
+@mixin make-centre{
+
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
 .box{
   height:100%;
 
 
   .blue{
-    background-color: lighten(blue,30%);
+    background-color: lighten(blue,40%);
   }
 
   .yellow{
@@ -38,3 +45,13 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
     background-color: pink;
   }
 }
+
+.move-box{
+  @include make-centre;
+  height: $long;
+  width: $long;
+  border: 2px solid;
+  border-color: #444;
+  z-index: 10;
+}
+

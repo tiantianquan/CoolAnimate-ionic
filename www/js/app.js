@@ -19,5 +19,7 @@ angular.module('starter', ['ionic'])
 })
 
 .controller('MainCtrl',function($scope,$ionicSlideBoxDelegate){
+  //movebox 换页时会被挤进另外一页
+
   
 })

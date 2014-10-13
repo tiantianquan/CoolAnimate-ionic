@@ -26,8 +26,8 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1077">
-              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1107">
+              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -36,8 +36,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="1308">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state vertical-scroll-proportion="-16.25" vertical-offset="15" max-vertical-offset="1323">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -46,8 +46,8 @@
       <file leaf-file-name="ionic.bundle.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/ionic/js/ionic.bundle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31325302" vertical-offset="657306" max-vertical-offset="667032">
-              <caret line="43841" column="0" selection-start-line="43841" selection-start-column="0" selection-end-line="43841" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.43373495" vertical-offset="656331" max-vertical-offset="667032">
+              <caret line="43782" column="17" selection-start-line="43782" selection-start-column="17" selection-end-line="43782" selection-end-column="17" />
               <folding>
                 <marker date="1413207856000" expanded="false" signature="1411245:1411263" placeholder="..." />
               </folding>
@@ -193,24 +193,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1077">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1107">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="1308">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state vertical-scroll-proportion="-16.25" vertical-offset="15" max-vertical-offset="1323">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/ionic/js/ionic.bundle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31325302" vertical-offset="657306" max-vertical-offset="667032">
-          <caret line="43841" column="0" selection-start-line="43841" selection-start-column="0" selection-end-line="43841" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.43373495" vertical-offset="656331" max-vertical-offset="667032">
+          <caret line="43782" column="17" selection-start-line="43782" selection-start-column="17" selection-end-line="43782" selection-end-column="17" />
           <folding>
             <marker date="1413207856000" expanded="false" signature="1411245:1411263" placeholder="..." />
           </folding>
