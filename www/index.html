@@ -21,16 +21,16 @@
     <!-- your app's js -->
     <script src="js/app.js"></script>
   </head>
-  <body ng-app="starter">
+  <body ng-app="starter" ng-controller="MainCtrl">
     
-    <div class="move-box"></div>
-    <ion-pane ng-controller="MainCtrl">
+    <div class="move-box" ng-style="style"></div>
+    <ion-pane>
       <ion-slide-box class="box" on-slide-changed="slideHasChanged($index)">
         <ion-slide>
-          <div class="box blue"></div>
+          <div class="box yellow"></div>
         </ion-slide>
         <ion-slide>
-          <div class="box yellow"></div>
+          <div class="box blue"></div>
         </ion-slide>
         <ion-slide>
           <div class="box pink"></div>

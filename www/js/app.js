@@ -9,17 +9,40 @@ angular.module('starter', ['ionic'])
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
-    if(window.cordova && window.cordova.plugins.Keyboard) {
+    if (window.cordova && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
     }
-    if(window.StatusBar) {
+    if (window.StatusBar) {
       StatusBar.styleDefault();
     }
   });
 })
 
-.controller('MainCtrl',function($scope,$ionicSlideBoxDelegate){
+.controller('MainCtrl', function($scope, $element, $ionicSlideBoxDelegate) {
   //movebox 换页时会被挤进另外一页
+  var num;
 
-  
+
+  // $element.on('mousemove', function(x) {
+  //   num = 90;
+
+  //   $scope.style = {
+  //     '-webkit-transform': rotateY(x.clientX)
+  //   }
+  // })
+  $scope.slideHasChanged=function($index){
+    $scope.style = {
+      '-webkit-transform': rotateY(180*$index*2)+' '+rotate(180*$index)
+      // '-webkit-transform': rotate(180*$index*3)
+    }
+  }
 })
+
+
+function rotateY(num) {
+  return 'rotateY(' + num + 'deg)';
+}
+
+function rotate(num) {
+  return 'rotate(' + num + 'deg)';
+}
