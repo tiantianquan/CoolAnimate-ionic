@@ -49,13 +49,12 @@ $border-color:#444;
 
 .move-box{
   @include make-centre;
-  height: $long;
+  height: 0;
   width: $long;
   border: 2px solid;
   border-color: $border-color;
   z-index: 10;
 
-  transition: -webkit-transform 1s;
-
+  transition:1s linear all;
 }
 

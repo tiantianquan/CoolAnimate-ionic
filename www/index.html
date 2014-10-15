@@ -14,6 +14,7 @@
 
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/ionic/js/angular/angular-animate.js"></script>
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
@@ -23,9 +24,9 @@
   </head>
   <body ng-app="starter" ng-controller="MainCtrl">
     
-    <div class="move-box" ng-style="style"></div>
+    <div class="move-box trans" ng-style="style"></div>
     <ion-pane>
-      <ion-slide-box class="box" on-slide-changed="slideHasChanged($index)">
+      <ion-slide-box class="box" on-slide-changed="slideHasChanged($index)" >
         <ion-slide>
           <div class="box yellow"></div>
         </ion-slide>

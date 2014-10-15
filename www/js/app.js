@@ -3,7 +3,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic'])
+angular.module('starter', ['ionic','ngAnimate'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -18,7 +18,7 @@ angular.module('starter', ['ionic'])
   });
 })
 
-.controller('MainCtrl', function($scope, $element, $ionicSlideBoxDelegate) {
+.controller('MainCtrl', function($scope, $element, $animate, $ionicSlideBoxDelegate) {
   //movebox 换页时会被挤进另外一页
   var num;
 
@@ -32,8 +32,9 @@ angular.module('starter', ['ionic'])
   // })
   $scope.slideHasChanged=function($index){
     $scope.style = {
-      '-webkit-transform': rotateY(180*$index*2)+' '+rotate(180*$index)
+      '-webkit-transform': rotateY(180*$index*2)+' '+rotate(180*$index),
       // '-webkit-transform': rotate(180*$index*3)
+      height:$index*100+'px',
     }
   }
 })
@@ -46,3 +47,4 @@ function rotateY(num) {
 function rotate(num) {
   return 'rotate(' + num + 'deg)';
 }
+
